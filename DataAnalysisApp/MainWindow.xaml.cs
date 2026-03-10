@@ -103,9 +103,5 @@ namespace DataAnalysisApp
             }
         }
 
-        public void ShowErrorMessage(string message)
-        {
-            MessageBox.Show(message, "错误", MessageBoxButton.OK, MessageBoxImage.Error);
-        }
     }
 }
